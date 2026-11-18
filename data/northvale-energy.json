@@ -1,0 +1,459 @@
+{
+  "utility": {
+    "name": "Northvale Energy",
+    "monogram": "NV",
+    "legalName": "Northvale Energy Supply Ltd",
+    "address": [
+      "Wharf House, 12 Navigation Road",
+      "Leeds LS10 1JQ",
+      "United Kingdom"
+    ],
+    "registration": "Registered in England and Wales, company no. 10482276 · VAT GB 318 4410 72",
+    "phone": "0113 496 0418",
+    "email": "help@northvale-energy.example",
+    "website": "northvale-energy.example",
+    "payUrl": "https://northvale-energy.example/pay",
+    "accent": "#0B5D5B"
+  },
+  "settings": {
+    "locale": "en-GB",
+    "currency": "GBP",
+    "service": "Electricity",
+    "unit": "kWh",
+    "readingDecimals": 0,
+    "dueSoonDays": 7
+  },
+  "account": {
+    "number": "NV-20418833",
+    "holder": "Daniel Okafor",
+    "salutation": "Mr Okafor",
+    "email": "daniel.okafor@example.com",
+    "supplyAddress": [
+      "Flat 3, 18 Harehills Lane",
+      "Leeds LS8 4HQ"
+    ],
+    "meter": {
+      "serial": "21L4471903",
+      "type": "Economy 7 smart meter"
+    },
+    "payment": {
+      "method": "on-receipt",
+      "detail": "Pay on receipt, by card or bank transfer"
+    }
+  },
+  "tariff": {
+    "name": "Northvale Fixed Economy 7, Nov 2025",
+    "registers": [
+      {
+        "code": "DAY",
+        "label": "Day rate",
+        "rate": 0.2703
+      },
+      {
+        "code": "NIGHT",
+        "label": "Night rate",
+        "rate": 0.1542
+      }
+    ],
+    "standingPerDay": 0.5335,
+    "taxes": [
+      {
+        "label": "VAT",
+        "percent": 5
+      }
+    ],
+    "lateFee": {
+      "amount": 12,
+      "afterDays": 14
+    }
+  },
+  "asOf": "2026-11-18",
+  "bills": [
+    {
+      "id": "2025-11",
+      "start": "2025-11-01",
+      "end": "2025-11-30",
+      "issueDate": "2025-12-04",
+      "dueDate": "2025-12-25",
+      "readings": [
+        {
+          "register": "DAY",
+          "previous": 18342,
+          "current": 18532,
+          "date": "2025-11-30",
+          "kind": "actual"
+        },
+        {
+          "register": "NIGHT",
+          "previous": 9127,
+          "current": 9244,
+          "date": "2025-11-30",
+          "kind": "actual"
+        }
+      ],
+      "payments": [
+        {
+          "date": "2025-12-19",
+          "amount": 89.68,
+          "method": "card",
+          "reference": "PAY-202511-8833"
+        }
+      ]
+    },
+    {
+      "id": "2025-12",
+      "start": "2025-12-01",
+      "end": "2025-12-31",
+      "issueDate": "2026-01-04",
+      "dueDate": "2026-01-25",
+      "readings": [
+        {
+          "register": "DAY",
+          "previous": 18532,
+          "current": 18767,
+          "date": "2025-12-31",
+          "kind": "actual"
+        },
+        {
+          "register": "NIGHT",
+          "previous": 9244,
+          "current": 9388,
+          "date": "2025-12-31",
+          "kind": "actual"
+        }
+      ],
+      "payments": [
+        {
+          "date": "2026-01-23",
+          "amount": 107.37,
+          "method": "card",
+          "reference": "PAY-202512-8833"
+        }
+      ]
+    },
+    {
+      "id": "2026-01",
+      "start": "2026-01-01",
+      "end": "2026-01-31",
+      "issueDate": "2026-02-04",
+      "dueDate": "2026-02-25",
+      "readings": [
+        {
+          "register": "DAY",
+          "previous": 18767,
+          "current": 19020,
+          "date": "2026-01-31",
+          "kind": "estimated"
+        },
+        {
+          "register": "NIGHT",
+          "previous": 9388,
+          "current": 9543,
+          "date": "2026-01-31",
+          "kind": "estimated"
+        }
+      ],
+      "payments": [
+        {
+          "date": "2026-02-21",
+          "amount": 114.27,
+          "method": "card",
+          "reference": "PAY-202601-8833"
+        }
+      ]
+    },
+    {
+      "id": "2026-02",
+      "start": "2026-02-01",
+      "end": "2026-02-28",
+      "issueDate": "2026-03-04",
+      "dueDate": "2026-03-25",
+      "readings": [
+        {
+          "register": "DAY",
+          "previous": 19020,
+          "current": 19241,
+          "date": "2026-02-28",
+          "kind": "actual"
+        },
+        {
+          "register": "NIGHT",
+          "previous": 9543,
+          "current": 9679,
+          "date": "2026-02-28",
+          "kind": "actual"
+        }
+      ],
+      "payments": [
+        {
+          "date": "2026-04-13",
+          "amount": 100.43,
+          "method": "card",
+          "reference": "PAY-202602-8833"
+        }
+      ]
+    },
+    {
+      "id": "2026-03",
+      "start": "2026-03-01",
+      "end": "2026-03-31",
+      "issueDate": "2026-04-04",
+      "dueDate": "2026-04-25",
+      "readings": [
+        {
+          "register": "DAY",
+          "previous": 19241,
+          "current": 19449,
+          "date": "2026-03-31",
+          "kind": "actual"
+        },
+        {
+          "register": "NIGHT",
+          "previous": 9679,
+          "current": 9806,
+          "date": "2026-03-31",
+          "kind": "actual"
+        }
+      ],
+      "payments": [
+        {
+          "date": "2026-04-20",
+          "amount": 96.96,
+          "method": "card",
+          "reference": "PAY-202603-8833"
+        }
+      ]
+    },
+    {
+      "id": "2026-04",
+      "start": "2026-04-01",
+      "end": "2026-04-30",
+      "issueDate": "2026-05-04",
+      "dueDate": "2026-05-25",
+      "readings": [
+        {
+          "register": "DAY",
+          "previous": 19449,
+          "current": 19621,
+          "date": "2026-04-30",
+          "kind": "actual"
+        },
+        {
+          "register": "NIGHT",
+          "previous": 9806,
+          "current": 9912,
+          "date": "2026-04-30",
+          "kind": "actual"
+        }
+      ],
+      "payments": [
+        {
+          "date": "2026-05-20",
+          "amount": 94.79,
+          "method": "card",
+          "reference": "PAY-202604-8833"
+        }
+      ]
+    },
+    {
+      "id": "2026-05",
+      "start": "2026-05-01",
+      "end": "2026-05-31",
+      "issueDate": "2026-06-04",
+      "dueDate": "2026-06-25",
+      "readings": [
+        {
+          "register": "DAY",
+          "previous": 19621,
+          "current": 19773,
+          "date": "2026-05-31",
+          "kind": "actual"
+        },
+        {
+          "register": "NIGHT",
+          "previous": 9912,
+          "current": 10005,
+          "date": "2026-05-31",
+          "kind": "actual"
+        }
+      ],
+      "payments": [
+        {
+          "date": "2026-06-20",
+          "amount": 75.57,
+          "method": "card",
+          "reference": "PAY-202605-8833"
+        }
+      ]
+    },
+    {
+      "id": "2026-06",
+      "start": "2026-06-01",
+      "end": "2026-06-30",
+      "issueDate": "2026-07-04",
+      "dueDate": "2026-07-25",
+      "readings": [
+        {
+          "register": "DAY",
+          "previous": 19773,
+          "current": 19898,
+          "date": "2026-06-30",
+          "kind": "actual"
+        },
+        {
+          "register": "NIGHT",
+          "previous": 10005,
+          "current": 10082,
+          "date": "2026-06-30",
+          "kind": "actual"
+        }
+      ],
+      "payments": [
+        {
+          "date": "2026-07-22",
+          "amount": 49,
+          "method": "card",
+          "reference": "PAY-202606-8833"
+        }
+      ],
+      "adjustments": [
+        {
+          "label": "Goodwill credit: estimated January reading",
+          "amount": -15
+        }
+      ]
+    },
+    {
+      "id": "2026-07",
+      "start": "2026-07-01",
+      "end": "2026-07-31",
+      "issueDate": "2026-08-04",
+      "dueDate": "2026-08-25",
+      "readings": [
+        {
+          "register": "DAY",
+          "previous": 19898,
+          "current": 20028,
+          "date": "2026-07-31",
+          "kind": "actual"
+        },
+        {
+          "register": "NIGHT",
+          "previous": 10082,
+          "current": 10162,
+          "date": "2026-07-31",
+          "kind": "actual"
+        }
+      ],
+      "payments": [
+        {
+          "date": "2026-08-20",
+          "amount": 67.22,
+          "method": "card",
+          "reference": "PAY-202607-8833"
+        }
+      ]
+    },
+    {
+      "id": "2026-08",
+      "start": "2026-08-01",
+      "end": "2026-08-31",
+      "issueDate": "2026-09-04",
+      "dueDate": "2026-09-25",
+      "readings": [
+        {
+          "register": "DAY",
+          "previous": 20028,
+          "current": 20150,
+          "date": "2026-08-31",
+          "kind": "actual"
+        },
+        {
+          "register": "NIGHT",
+          "previous": 10162,
+          "current": 10237,
+          "date": "2026-08-31",
+          "kind": "actual"
+        }
+      ],
+      "payments": [
+        {
+          "date": "2026-09-20",
+          "amount": 64.14,
+          "method": "card",
+          "reference": "PAY-202608-8833"
+        }
+      ]
+    },
+    {
+      "id": "2026-09",
+      "start": "2026-09-01",
+      "end": "2026-09-30",
+      "issueDate": "2026-10-04",
+      "dueDate": "2026-10-25",
+      "readings": [
+        {
+          "register": "DAY",
+          "previous": 20150,
+          "current": 20294,
+          "date": "2026-09-30",
+          "kind": "actual"
+        },
+        {
+          "register": "NIGHT",
+          "previous": 10237,
+          "current": 10326,
+          "date": "2026-09-30",
+          "kind": "actual"
+        }
+      ],
+      "payments": [
+        {
+          "date": "2026-10-19",
+          "amount": 72.08,
+          "method": "card",
+          "reference": "PAY-202609-8833"
+        }
+      ]
+    },
+    {
+      "id": "2026-10",
+      "start": "2026-10-01",
+      "end": "2026-10-31",
+      "issueDate": "2026-11-04",
+      "dueDate": "2026-11-25",
+      "readings": [
+        {
+          "register": "DAY",
+          "previous": 20294,
+          "current": 20472,
+          "date": "2026-10-31",
+          "kind": "actual"
+        },
+        {
+          "register": "NIGHT",
+          "previous": 10326,
+          "current": 10435,
+          "date": "2026-10-31",
+          "kind": "actual"
+        }
+      ],
+      "payments": [],
+      "message": "Prices on the Fixed Economy 7 tariff stay the same until 31 October 2027. Moving more use to the night rate (midnight to 7 am) is the quickest way to cut this bill."
+    }
+  ],
+  "history": {
+    "2024-11": 344,
+    "2024-12": 426,
+    "2025-01": 454,
+    "2025-02": 408,
+    "2025-03": 359,
+    "2025-04": 304,
+    "2025-05": 275,
+    "2025-06": 240,
+    "2025-07": 219,
+    "2025-08": 225,
+    "2025-09": 265,
+    "2025-10": 295
+  }
+}

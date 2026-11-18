@@ -1,0 +1,30 @@
+[
+  {
+    "file": "data/kirichwa-water.json",
+    "pass": true,
+    "artefactsChecked": 24,
+    "errors": 0,
+    "warnings": 0,
+    "dataIssues": [],
+    "notesByCode": {
+      "email/outlook-degraded": 63,
+      "email/phone-styles": 3,
+      "email/lint-text-size": 83,
+      "page/lint-text-size": 174
+    }
+  },
+  {
+    "file": "data/northvale-energy.json",
+    "pass": true,
+    "artefactsChecked": 24,
+    "errors": 0,
+    "warnings": 0,
+    "dataIssues": [],
+    "notesByCode": {
+      "email/outlook-degraded": 63,
+      "email/phone-styles": 3,
+      "email/lint-text-size": 83,
+      "page/lint-text-size": 180
+    }
+  }
+]

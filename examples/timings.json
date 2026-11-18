@@ -1,0 +1,16 @@
+{
+  "note": "Measured on the machine that last ran npm run make; for scale, not a benchmark.",
+  "node": "v22.14.0",
+  "kirichwa-water": {
+    "bills": 12,
+    "yearBatchMs": 1657,
+    "latest": "2026-10",
+    "stateOnAsOf": "overdue"
+  },
+  "northvale-energy": {
+    "bills": 12,
+    "yearBatchMs": 1493,
+    "latest": "2026-10",
+    "stateOnAsOf": "due"
+  }
+}

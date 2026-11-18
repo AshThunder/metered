@@ -1,0 +1,378 @@
+{
+  "utility": {
+    "name": "Kirichwa Water",
+    "monogram": "KW",
+    "legalName": "Kirichwa Water and Sanitation Services Ltd",
+    "address": [
+      "Kirichwa House, Mandera Road",
+      "Kileleshwa, Nairobi",
+      "Kenya"
+    ],
+    "registration": "Licensed water service provider, licence no. WSP/NRB/0417",
+    "phone": "+254 20 555 0193",
+    "email": "care@kirichwa-water.example",
+    "website": "kirichwa-water.example",
+    "payUrl": "https://kirichwa-water.example/pay",
+    "accent": "#1F4E9A"
+  },
+  "settings": {
+    "locale": "en-KE",
+    "currency": "KES",
+    "service": "Water",
+    "unit": "m³",
+    "readingDecimals": 0,
+    "dueSoonDays": 5
+  },
+  "account": {
+    "number": "KW-0071942",
+    "holder": "Wanjiru Kamau",
+    "salutation": "Mrs Kamau",
+    "email": "wanjiru.kamau@example.co.ke",
+    "supplyAddress": [
+      "Hse 14, Laikipia Road",
+      "Kileleshwa, Nairobi"
+    ],
+    "meter": {
+      "serial": "KW15-208817",
+      "type": "15 mm domestic meter"
+    },
+    "payment": {
+      "method": "on-receipt",
+      "detail": "M-Pesa paybill 400200, account KW-0071942"
+    }
+  },
+  "tariff": {
+    "name": "Domestic, rising block",
+    "registers": [
+      {
+        "code": "W",
+        "label": "Water"
+      }
+    ],
+    "blocks": [
+      {
+        "upTo": 6,
+        "rate": 53
+      },
+      {
+        "upTo": 60,
+        "rate": 96
+      },
+      {
+        "upTo": null,
+        "rate": 114
+      }
+    ],
+    "surcharges": [
+      {
+        "label": "Sewerage, 75% of water",
+        "percent": 75
+      }
+    ],
+    "standingPerDay": 1.67,
+    "taxes": [],
+    "lateFee": {
+      "amount": 500,
+      "afterDays": 14
+    }
+  },
+  "asOf": "2026-11-18",
+  "bills": [
+    {
+      "id": "2025-11",
+      "start": "2025-11-01",
+      "end": "2025-11-30",
+      "issueDate": "2025-12-04",
+      "dueDate": "2025-12-10",
+      "readings": [
+        {
+          "register": "W",
+          "previous": 1842,
+          "current": 1859,
+          "date": "2025-11-30",
+          "kind": "actual"
+        }
+      ],
+      "payments": [
+        {
+          "date": "2025-12-09",
+          "amount": 2454.6,
+          "method": "M-Pesa",
+          "reference": "PAY-202511-1942"
+        }
+      ]
+    },
+    {
+      "id": "2025-12",
+      "start": "2025-12-01",
+      "end": "2025-12-31",
+      "issueDate": "2026-01-04",
+      "dueDate": "2026-01-10",
+      "readings": [
+        {
+          "register": "W",
+          "previous": 1859,
+          "current": 1880,
+          "date": "2025-12-31",
+          "kind": "actual"
+        }
+      ],
+      "payments": [
+        {
+          "date": "2026-01-07",
+          "amount": 3128.27,
+          "method": "M-Pesa",
+          "reference": "PAY-202512-1942"
+        }
+      ]
+    },
+    {
+      "id": "2026-01",
+      "start": "2026-01-01",
+      "end": "2026-01-31",
+      "issueDate": "2026-02-04",
+      "dueDate": "2026-02-10",
+      "readings": [
+        {
+          "register": "W",
+          "previous": 1880,
+          "current": 1903,
+          "date": "2026-01-31",
+          "kind": "actual"
+        }
+      ],
+      "payments": [
+        {
+          "date": "2026-02-05",
+          "amount": 3464.27,
+          "method": "M-Pesa",
+          "reference": "PAY-202601-1942"
+        }
+      ]
+    },
+    {
+      "id": "2026-02",
+      "start": "2026-02-01",
+      "end": "2026-02-28",
+      "issueDate": "2026-03-04",
+      "dueDate": "2026-03-10",
+      "readings": [
+        {
+          "register": "W",
+          "previous": 1903,
+          "current": 1927,
+          "date": "2026-02-28",
+          "kind": "actual"
+        }
+      ],
+      "payments": [
+        {
+          "date": "2026-03-08",
+          "amount": 3627.26,
+          "method": "M-Pesa",
+          "reference": "PAY-202602-1942"
+        }
+      ]
+    },
+    {
+      "id": "2026-03",
+      "start": "2026-03-01",
+      "end": "2026-03-31",
+      "issueDate": "2026-04-04",
+      "dueDate": "2026-04-10",
+      "readings": [
+        {
+          "register": "W",
+          "previous": 1927,
+          "current": 1949,
+          "date": "2026-03-31",
+          "kind": "actual"
+        }
+      ],
+      "payments": [
+        {
+          "date": "2026-04-06",
+          "amount": 3296.27,
+          "method": "M-Pesa",
+          "reference": "PAY-202603-1942"
+        }
+      ]
+    },
+    {
+      "id": "2026-04",
+      "start": "2026-04-01",
+      "end": "2026-04-30",
+      "issueDate": "2026-05-04",
+      "dueDate": "2026-05-10",
+      "readings": [
+        {
+          "register": "W",
+          "previous": 1949,
+          "current": 1968,
+          "date": "2026-04-30",
+          "kind": "actual"
+        }
+      ],
+      "payments": [
+        {
+          "date": "2026-05-07",
+          "amount": 2790.6,
+          "method": "M-Pesa",
+          "reference": "PAY-202604-1942"
+        }
+      ]
+    },
+    {
+      "id": "2026-05",
+      "start": "2026-05-01",
+      "end": "2026-05-31",
+      "issueDate": "2026-06-04",
+      "dueDate": "2026-06-10",
+      "readings": [
+        {
+          "register": "W",
+          "previous": 1968,
+          "current": 1984,
+          "date": "2026-05-31",
+          "kind": "actual"
+        }
+      ],
+      "payments": [
+        {
+          "date": "2026-06-29",
+          "amount": 2288.27,
+          "method": "M-Pesa",
+          "reference": "PAY-202605-1942"
+        }
+      ]
+    },
+    {
+      "id": "2026-06",
+      "start": "2026-06-01",
+      "end": "2026-06-30",
+      "issueDate": "2026-07-04",
+      "dueDate": "2026-07-10",
+      "readings": [
+        {
+          "register": "W",
+          "previous": 1984,
+          "current": 2001,
+          "date": "2026-06-30",
+          "kind": "actual"
+        }
+      ],
+      "payments": [
+        {
+          "date": "2026-07-08",
+          "amount": 2954.6,
+          "method": "M-Pesa",
+          "reference": "PAY-202606-1942"
+        }
+      ]
+    },
+    {
+      "id": "2026-07",
+      "start": "2026-07-01",
+      "end": "2026-07-31",
+      "issueDate": "2026-08-04",
+      "dueDate": "2026-08-10",
+      "readings": [
+        {
+          "register": "W",
+          "previous": 2001,
+          "current": 2018,
+          "date": "2026-07-31",
+          "kind": "actual"
+        }
+      ],
+      "payments": [
+        {
+          "date": "2026-08-07",
+          "amount": 2456.27,
+          "method": "M-Pesa",
+          "reference": "PAY-202607-1942"
+        }
+      ]
+    },
+    {
+      "id": "2026-08",
+      "start": "2026-08-01",
+      "end": "2026-08-31",
+      "issueDate": "2026-09-04",
+      "dueDate": "2026-09-10",
+      "readings": [
+        {
+          "register": "W",
+          "previous": 2018,
+          "current": 2037,
+          "date": "2026-08-31",
+          "kind": "customer"
+        }
+      ],
+      "payments": [
+        {
+          "date": "2026-09-04",
+          "amount": 2792.27,
+          "method": "M-Pesa",
+          "reference": "PAY-202608-1942"
+        }
+      ]
+    },
+    {
+      "id": "2026-09",
+      "start": "2026-09-01",
+      "end": "2026-09-30",
+      "issueDate": "2026-10-04",
+      "dueDate": "2026-10-10",
+      "readings": [
+        {
+          "register": "W",
+          "previous": 2037,
+          "current": 2056,
+          "date": "2026-09-30",
+          "kind": "actual"
+        }
+      ],
+      "payments": [
+        {
+          "date": "2026-10-08",
+          "amount": 2790.6,
+          "method": "M-Pesa",
+          "reference": "PAY-202609-1942"
+        }
+      ]
+    },
+    {
+      "id": "2026-10",
+      "start": "2026-10-01",
+      "end": "2026-10-31",
+      "issueDate": "2026-11-04",
+      "dueDate": "2026-11-10",
+      "readings": [
+        {
+          "register": "W",
+          "previous": 2056,
+          "current": 2077,
+          "date": "2026-10-31",
+          "kind": "actual"
+        }
+      ],
+      "payments": [],
+      "message": "Planned maintenance on the Kileleshwa main on 2 December may lower pressure between 9 am and 3 pm."
+    }
+  ],
+  "history": {
+    "2024-11": 19,
+    "2024-12": 20,
+    "2025-01": 24,
+    "2025-02": 24,
+    "2025-03": 23,
+    "2025-04": 19,
+    "2025-05": 16,
+    "2025-06": 17,
+    "2025-07": 18,
+    "2025-08": 19,
+    "2025-09": 21,
+    "2025-10": 21
+  }
+}
