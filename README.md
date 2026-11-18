@@ -160,3 +160,7 @@ A bill is read for three things: how much, by when, and why. So the state is the
 ## Licence
 
 MIT, see [LICENSE](LICENSE). Fonts: Inter and IBM Plex Mono under the SIL Open Font License 1.1 ([`assets/fonts/`](assets/fonts)). All utilities, customers, addresses and figures in `data/` are fictional.
+
+## Author
+
+Chris Gold, X: [@ChrisGold__](https://x.com/ChrisGold__), GitHub: [@AshThunder](https://github.com/AshThunder)
